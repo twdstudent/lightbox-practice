@@ -1,5 +1,23 @@
+body {
+    margin: 0;
+}
+
 h1 {
     color: red;
     text-align: center;
     text-decoration: underline;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3. 200px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
+    height: 100vh;
+}
+
+.images {
+    width: 200px;
+    height: 200px;
 }
